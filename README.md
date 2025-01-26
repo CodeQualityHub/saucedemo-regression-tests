@@ -137,7 +137,7 @@ npx allure open
 
 ### HTML-Bericht:
 Playwright generiert standardmäßig einen HTML-Bericht. Öffnen Sie ihn mit:
-npx playwright show-report
+npx playwright show-report html-report
 
 ## **Best Practices**
 Page Object Model (POM): Kapselt seitenbezogene Logik in Seitenklassen.
