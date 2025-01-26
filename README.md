@@ -108,34 +108,34 @@ Bevor Sie die Tests ausführen, stellen Sie sicher, dass Folgendes installiert i
  ┃ ┗ 📜jsonUtils.ts
  
 ## **Test ausführen**
-# Alle Tests ausführen:
+### Alle Tests ausführen:
 npx playwright test
 
-# Tests im Headed-Modus ausführen:
+### Tests im Headed-Modus ausführen:
 npx playwright test --headed
 
-# Tests in einem bestimmten Browser ausführen (z. B. Chromium):
+### Tests in einem bestimmten Browser ausführen (z. B. Chromium):
 npx playwright test --project=chromium
 
-# Tests parallel ausführen:
+### Tests parallel ausführen:
 npx playwright test --workers=4
 
-# Regressionstests ausführen:
+### Regressionstests ausführen:
 npx playwright test tests/regression/
 
-# End-to-End-Tests ausführen:
+### End-to-End-Tests ausführen:
 npx playwright test tests/e2e/
 
 ## **Testberichte**
-# Allure-Berichte
+## Allure-Berichte
 
-# Bericht generieren:
+### Bericht generieren:
 npx allure generate ./allure-results --clean
 
-# Bericht öffnen:
+### Bericht öffnen:
 npx allure open
 
-# HTML-Bericht:
+### HTML-Bericht:
 Playwright generiert standardmäßig einen HTML-Bericht. Öffnen Sie ihn mit:
 npx playwright show-report
 
