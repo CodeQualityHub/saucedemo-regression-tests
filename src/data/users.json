@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "checkout": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "postalCode": "12345"
+      }
+    },
+    {
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "checkout": {
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "postalCode": "67890"
+      }
+    },
+    {
+      "username": "problem_user",
+      "password": "secret_sauce",
+      "checkout": {
+        "firstName": "Alice",
+        "lastName": "Johnson",
+        "postalCode": "54321"
+      }
+    },
+    {
+      "username": "performance_glitch_user",
+      "password": "secret_sauce",
+      "checkout": {
+        "firstName": "Bob",
+        "lastName": "Brown",
+        "postalCode": "98765"
+      }
+    },
+    {
+      "username": "error_user",
+      "password": "secret_sauce",
+      "checkout": {
+        "firstName": "Charlie",
+        "lastName": "Davis",
+        "postalCode": "11223"
+      }
+    },
+    {
+      "username": "visual_user",
+      "password": "secret_sauce",
+      "checkout": {
+        "firstName": "Eve",
+        "lastName": "Wilson",
+        "postalCode": "44556"
+      }
+    },
+    {
+      "username": "invalid_user_1",
+      "password": "wrong_password_1",
+      "checkout": {
+        "firstName": "Invalid",
+        "lastName": "User",
+        "postalCode": "00000"
+      }
+    },
+    {
+      "username": "invalid_user_2",
+      "password": "wrong_password_2",
+      "checkout": {
+        "firstName": "Another",
+        "lastName": "Invalid",
+        "postalCode": "99999"
+      }
+    },
+    {
+      "username": "special_char_user!@#",
+      "password": "special_char_pass!@#",
+      "checkout": {
+        "firstName": "Special",
+        "lastName": "Char",
+        "postalCode": "!@#$%"
+      }
+    },
+    {
+      "username": "user_with_space",
+      "password": "pass with space",
+      "checkout": {
+        "firstName": "User With",
+        "lastName": "Space",
+        "postalCode": " 123 "
+      }
+    }
+  ]
+}
